@@ -1,0 +1,2 @@
+class BrokenLink(Exception):
+    pass
