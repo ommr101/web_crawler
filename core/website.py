@@ -6,10 +6,9 @@ import requests
 from bs4 import BeautifulSoup
 from dataclasses_json import dataclass_json
 
-import exceptions
-import url_utils
-from counter import Counter
-from logger import logger
+from core import exceptions, url_utils
+from core.counter import Counter
+from core.logger import logger
 
 
 @dataclass_json
